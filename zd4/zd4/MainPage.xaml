@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:zd4"
+            x:Class="zd4.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <StyleSheet Source="mystyles.css" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+</ContentPage>
+

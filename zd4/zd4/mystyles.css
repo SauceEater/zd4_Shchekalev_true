@@ -1,0 +1,37 @@
+﻿^contentpage {
+    background-color: black;
+}
+
+.PageBackgroundColor {
+    background-color: black;
+}
+
+#header {
+    font-size: 32;
+    font-weight: bolder;
+    color: black;
+}
+
+Button {
+    background-color: red;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.LabelTextColor {
+    color: black;
+}
+
+.EnrtyStyle {
+    font-size: 16;
+    background-color: white;
+}
+
+#stylefordroro {
+    font-size: 16;
+    background-color: white;
+    color: white;
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd4.Page2"
+             Title="Метки">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Центробанк РФ:" FontSize="20" VerticalOptions="Center" Margin="15,20,0,0" />
+                <Label x:Name="DateLabel" Text="Текущая дата" FontSize="20" Margin="70,20,0,0" FontAttributes = "Bold,Italic"  TextColor="#22A2EE"/>
+                <DatePicker x:Name="datePicker" Date="{Binding CurrentDate}" Margin="0" FontAttributes = "Bold,Italic"  TextColor="#22A2EE"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="DollarLabel" Text="USD" FontSize="20" VerticalOptions="Center" Margin="15,0,0,0" FontAttributes = "Bold" TextColor="#22A2EE" />
+                <Entry x:Name="Dollarinput" Placeholder="$Input" TextChanged="Dollar"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="EuroLabel" Text="EUR" FontSize="20" VerticalOptions="Center" Margin="15,0,0,0" FontAttributes = "Bold" TextColor="#22A2EE" />
+                <Label x:Name="Euro" Text="..."/>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
